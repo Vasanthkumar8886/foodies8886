@@ -1,0 +1,18 @@
+body{
+    display: center;
+    background-image: url(../outdoor-restaurants.jpg);
+    
+
+}
+div{
+    display:  center;
+    color: white;
+    background-color: black;
+    text-align: center;
+    
+}
+
+fieldset{
+    display: flex;
+}
+

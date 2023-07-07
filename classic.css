@@ -1,0 +1,24 @@
+body{
+    background-image:url(classic123.jpg);
+    background-size: cover;
+}
+h1{
+    color: black;
+}
+p{
+    color: darkslategray;
+    font-size: 20px;
+}
+
+.contacts{
+    text-align: left;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.email{
+    text-align: left;
+    margin-top: -150px;
+    margin-right: 1000px;
+    margin-left: 400px;
+   
+}

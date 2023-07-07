@@ -1,0 +1,20 @@
+body{
+    display: block;
+    background-image: url(../indoor.jpg);
+    
+
+}
+div{
+    display:  center;
+    color: whitesmoke;
+    background-color: gray;
+    text-align: center;
+    
+}
+form{
+    display: center;
+}
+fieldset{
+    display: flex;
+}
+

@@ -1,0 +1,9 @@
+body{
+    background-color: grey;
+}
+h1{
+    color: rgb(56, 50, 50);
+    font-style: italic;
+    font-size: 90px;
+    margin-top: -20px;
+}

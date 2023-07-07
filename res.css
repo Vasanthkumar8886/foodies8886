@@ -1,0 +1,44 @@
+body{
+    background-image:url(tables.jpg); 
+    background-color: lightcyan;
+}
+h1{
+    font-size: 100px;
+    color: whitesmoke;
+    margin-left: 180px;
+    margin-top: -160px;
+}
+
+    ul{
+        list-style-type:none;
+        margin: 10px;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+        justify-content: space-around;
+        
+        background-color: rgb(156, 158, 160);
+    }
+    #logo {
+        font-size: 5em;
+        font-weight: 1000;
+        color: darkblue;
+        margin: 50px;
+        font-style: oblique;
+        font-family: 'Nunito Sans', sans-serif;
+    }
+    .link-button {
+        text-decoration: none;
+        text-align: center;
+        letter-spacing: 0.5px;
+        background: whitesmoke !important;
+        /* https://css-tricks.com/when-using-important-is-the-right-choice/ */
+        
+        font-size: 1.8em;
+        border-radius: 90%;
+        cursor: pointer;
+        border-color: black;
+        padding: 5px;
+    color: azure;
+    
+    }

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Outdoor.css">
+    <style>
+        
+        
+        form{
+            padding: 10px;
+            display: center;
+            
+        }
+        input{
+            display: inline-block;
+            padding: 5px;
+        }
+        label{
+            display: block;
+            padding: 5px;
+        }
+       
+        div{
+            border: 2px solid black;
+            width: 600px;
+            height: 650px;
+            
+            
+        }
+        
+        
+    </style>
+</head>
+<body>
+    
+    <h1> TABLE BOOKING</h1>
+    <div class="Box" align="center">
+    <form>
+        <label for="Name">Name:</label>
+        <input type="text" id="Name:"/>
+        <label for="Phone">Phone:</label>
+        <input type="Phone" id="Phone" required/>
+        <label for="Email">Email:</label>
+        <input type="Email" id="Email" required/>
+        <label for="Date">Date:</label>
+        <input type="date" id="Date" required/>
+        <fieldset>
+            <legend>Outdoor Table</legend>
+            <h2>3 seated:</h2>
+            <label for="Table 1">Table 1:</label>
+            <input type="checkbox" id="Table 1" required/>
+            <label for="Table 5">Table 5:</label>
+            <input type="checkbox" id="Table 5" required/>
+            <label for="Table 3">Table 3:</label>
+            <input type="checkbox" id="Table 3" required/>
+            <label for="Table 8">Table 8:</label>
+            <input type="checkbox" id="Table 8" required/>
+        </fieldset>
+        <fieldset>
+            <h2>5 seated:</h2>
+            <label for="Table 2">Table 2:</label>
+            <input type="checkbox" id="Table 2" required/>
+            <label for="Table 4">Table 4:</label>
+            <input type="checkbox" id="Table 4" required/>
+            <label for="Table 10">Table 6:</label>
+            <input type="checkbox" id="Table 6" required/>
+        </fieldset>
+        <fieldset> 
+            <h2>6 seated:</h2>
+            <label for="Table 9">Table 2:</label>
+            <input type="checkbox" id="Table 2" required/>
+            <label for="Table 6">Table 4:</label>
+            <input type="checkbox" id="Table 4" required/>
+            <label for="Table 7">Table 7:</label>
+            <input type="checkbox" id="Table 7" required/>
+        </fieldset>
+
+
+        <fieldset>
+            <legend> Payment method</legend> 
+            <label for="Cash">Cash:</label>
+            <input type="checkbox" id="Cash"/>
+            
+            <li><button><a href="Pay.html">Online</a></button></li>
+           
+        </fieldset>
+
+        <fieldset>
+        <button type="submit"> submit</button>
+        </fieldset>
+    </form>
+</div>
+</body>
+</html>
